@@ -7,6 +7,8 @@ import SearchMovie from './components/searchMovie';
 import SearchedMovieList from './components/searchedMovieList';
 import Home from './components/home';
 import UpcommingMovies from './components/upcommingMovies';
+import FavoriteMovies from './components/favoriteMovies';
+import { useFetchFavoritesMoviesQuery } from './store/apis/favoritesMoviesApi';
 
 /**
  * Renders the main application component.
@@ -28,7 +30,7 @@ function App() {
             <Link to='/' className="nav-item nav-link">Home</Link>
             <Link to='/popular' className="nav-item nav-link">Popular Movies</Link>
             <Link to='/highest-rated' className="nav-item nav-link">Highest Rated Movies</Link>
-            <Link to='/' className="nav-item nav-link">My favorite Movies</Link>
+            <Link to='/favorites' onClick={useFetchFavoritesMoviesQuery} className="nav-item nav-link">My favorite Movies</Link>
             <Link to='/upcomming-Movies' className="nav-item nav-link">Upcomming Movies</Link>
           </nav>
         </div> 
@@ -41,6 +43,7 @@ function App() {
             <Route path='/highest-rated' element={<HighestRatedMovieList/>} />
             <Route path='/searchedMovie' element={<SearchedMovieList/>} /> 
             <Route path='/upcomming-Movies' element={<UpcommingMovies/>} />
+            <Route path='/favorites' element={<FavoriteMovies/>} />
         </Routes>
 
     </div>

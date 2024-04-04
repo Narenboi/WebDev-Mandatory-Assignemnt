@@ -18,9 +18,11 @@ import { useFetchFavoritesMoviesQuery } from './store/apis/favoritesMoviesApi';
 function App() {
   // Use the useFetchGuestSessionQuery hook to fetch the guest session
   const { data: guestSessionData } = useFetchGuestSessionQuery();
+  //const { data: favoriteMovies, error, isLoading, refetch } = useFetchFavoritesMoviesQuery();
 
   // Log the guest session ID
   console.log("Guest Session ID:", guestSessionData?.guest_session_id);
+  //console.log("Favorite Movies:", favoriteMovies);
 
   return (
     <div>
@@ -30,7 +32,7 @@ function App() {
             <Link to='/' className="nav-item nav-link">Home</Link>
             <Link to='/popular' className="nav-item nav-link">Popular Movies</Link>
             <Link to='/highest-rated' className="nav-item nav-link">Highest Rated Movies</Link>
-            <Link to='/favorites' onClick={useFetchFavoritesMoviesQuery} className="nav-item nav-link">My favorite Movies</Link>
+            <Link to='/favorites' /*onClick={useFetchFavoritesMoviesQuery} */ className="nav-item nav-link">My favorite Movies</Link>
             <Link to='/upcomming-Movies' className="nav-item nav-link">Upcomming Movies</Link>
           </nav>
         </div> 

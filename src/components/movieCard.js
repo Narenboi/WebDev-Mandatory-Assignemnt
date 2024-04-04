@@ -11,6 +11,7 @@ function MovieCard({ movie }) {
   const handleAddToFavorites = () => {
     addToFavorites(movie);
   };
+  
 
   return (
     <div className="col-lg-2 mb-4">

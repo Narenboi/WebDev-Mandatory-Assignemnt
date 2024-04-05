@@ -6,6 +6,7 @@ function useAddToFavorites() {
   const [addFavoriteMovie, { isLoading }] = useAddFavoriteMovieMutation();
   const [error, setError] = React.useState(null);
 
+  
   const addToFavorites = async (movie) => {
     try {
       // Call the mutation to add the movie to favorites

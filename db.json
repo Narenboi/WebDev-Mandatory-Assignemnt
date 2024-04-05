@@ -12,13 +12,13 @@
       "original_language": "en",
       "original_title": "Godzilla x Kong: The New Empire",
       "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
-      "popularity": 3878.463,
+      "popularity": 3673.963,
       "poster_path": "/tMefBSflR6PGQLv7WvFPpKLZkyk.jpg",
       "release_date": "2024-03-27",
       "title": "Godzilla x Kong: The New Empire",
       "video": false,
-      "vote_average": 6.8,
-      "vote_count": 347
+      "vote_average": 6.726,
+      "vote_count": 396
     },
     {
       "id": 1011985,
@@ -34,69 +34,13 @@
       "original_language": "en",
       "original_title": "Kung Fu Panda 4",
       "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
-      "popularity": 2534.679,
+      "popularity": 2222.533,
       "poster_path": "/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
       "release_date": "2024-03-02",
       "title": "Kung Fu Panda 4",
       "video": false,
-      "vote_average": 6.8,
-      "vote_count": 550
-    },
-    {
-      "id": 359410,
-      "adult": false,
-      "backdrop_path": "/oe7mWkvYhK4PLRNAVSvonzyUXNy.jpg",
-      "genre_ids": [
-        28,
-        53
-      ],
-      "original_language": "en",
-      "original_title": "Road House",
-      "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
-      "popularity": 2147.281,
-      "poster_path": "/bXi6IQiQDHD00JFio5ZSZOeRSBh.jpg",
-      "release_date": "2024-03-08",
-      "title": "Road House",
-      "video": false,
-      "vote_average": 7.203,
-      "vote_count": 1128
-    },
-    {
-      "id": 1269211,
-      "adult": false,
-      "backdrop_path": "/rPiMMjLHYslmVnJvc1Am0CGIAcj.jpg",
-      "genre_ids": [
-        16
-      ],
-      "original_language": "ja",
-      "original_title": "アイドルマスター　ミリオンライブ！　第1幕",
-      "overview": "",
-      "popularity": 0,
-      "poster_path": "/9iZIvewcY7Z0Z1z7hIKqJsyb7Ph.jpg",
-      "release_date": "2023-08-18",
-      "title": "アイドルマスター　ミリオンライブ！　第1幕",
-      "video": false,
-      "vote_average": 10,
-      "vote_count": 1
-    },
-    {
-      "id": 634492,
-      "adult": false,
-      "backdrop_path": "/pwGmXVKUgKN13psUjlhC9zBcq1o.jpg",
-      "genre_ids": [
-        28,
-        14
-      ],
-      "original_language": "en",
-      "original_title": "Madame Web",
-      "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
-      "popularity": 1308.054,
-      "poster_path": "/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
-      "release_date": "2024-02-14",
-      "title": "Madame Web",
-      "video": false,
-      "vote_average": 5.652,
-      "vote_count": 943
+      "vote_average": 6.779,
+      "vote_count": 587
     }
   ]
 }

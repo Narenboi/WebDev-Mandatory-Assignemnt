@@ -8,6 +8,8 @@ export const posterBasePath = 'https://image.tmdb.org/t/p/w185_and_h278_bestv2';
 function MovieCard({ movie }) {
   const [addToFavorites, { isLoading, error }] = useAddToFavorites();
 
+   
+
   const handleAddToFavorites = () => {
     addToFavorites(movie);
   };

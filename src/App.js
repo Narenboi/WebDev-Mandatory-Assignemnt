@@ -19,6 +19,7 @@ function App() {
   // Use the useFetchGuestSessionQuery hook to fetch the guest session
   const { data: guestSessionData } = useFetchGuestSessionQuery();
   //const { data: favoriteMovies, error, isLoading, refetch } = useFetchFavoritesMoviesQuery();
+  
 
   // Log the guest session ID
   console.log("Guest Session ID:", guestSessionData?.guest_session_id);
@@ -44,8 +45,8 @@ function App() {
             <Route path='/popular' element={<PopularMoviesList/>} />     
             <Route path='/highest-rated' element={<HighestRatedMovieList/>} />
             <Route path='/searchedMovie' element={<SearchedMovieList/>} /> 
-            <Route path='/upcomming-Movies' element={<UpcommingMovies/>} />
             <Route path='/favorites' element={<FavoriteMovies/>} />
+            <Route path='/upcomming-Movies' element={<UpcommingMovies/>} />
         </Routes>
 
     </div>

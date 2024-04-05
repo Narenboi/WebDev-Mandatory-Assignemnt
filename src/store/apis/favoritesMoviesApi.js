@@ -2,7 +2,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const FavoritesMoviesApi = createApi({
-    reducerPath: 'movies',
+    reducerPath: 'favoriteMovies',
     baseQuery: fetchBaseQuery({
         baseUrl: 'http://localhost:3005/' // Specify the correct base URL for your API
     }),    

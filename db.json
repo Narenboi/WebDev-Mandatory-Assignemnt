@@ -1,76 +1,58 @@
 {
   "favorites": [
     {
-      "id": "359410",
+      "id": "693134",
       "adult": false,
-      "backdrop_path": "/oe7mWkvYhK4PLRNAVSvonzyUXNy.jpg",
+      "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
       "genre_ids": [
-        28,
-        53
+        878,
+        12
       ],
       "original_language": "en",
-      "original_title": "Road House",
-      "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
-      "popularity": 1880.547,
-      "poster_path": "/bXi6IQiQDHD00JFio5ZSZOeRSBh.jpg",
-      "release_date": "2024-03-08",
-      "title": "Road House",
+      "original_title": "Dune: Part Two",
+      "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+      "popularity": 1933.355,
+      "poster_path": "/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+      "release_date": "2024-02-27",
+      "title": "Dune: Part Two",
       "video": false,
-      "vote_average": 7.141,
-      "vote_count": 1187
+      "vote_average": 8.351,
+      "vote_count": 2572
     },
     {
-      "id": "1181548",
+      "id": "935271",
       "adult": false,
-      "backdrop_path": "/wUp0bUXaveR40ikBhDgWwNTijuD.jpg",
+      "backdrop_path": "/9c0lHTXRqDBxeOToVzRu0GArSne.jpg",
       "genre_ids": [
-        28,
-        9648,
-        53
+        878,
+        28
       ],
       "original_language": "en",
-      "original_title": "Heart of the Hunter",
-      "overview": "A retired assassin is pulled back into action when his friend uncovers a dangerous conspiracy at the heart of the South African government.",
-      "popularity": 420.82,
-      "poster_path": "/n726fdyL1dGwt15bY7Nj3XOXc4Q.jpg",
-      "release_date": "2024-03-28",
-      "title": "Heart of the Hunter",
+      "original_title": "After the Pandemic",
+      "overview": "Set in a post-apocalyptic world where a global airborne pandemic has wiped out 90% of the Earth's population and only the young and immune have endured as scavengers. For Ellie and Quinn, the daily challenges to stay alive are compounded when they become hunted by the merciless Stalkers.",
+      "popularity": 1345.924,
+      "poster_path": "/p1LbrdJ53dGfEhRopG71akfzOVu.jpg",
+      "release_date": "2022-03-01",
+      "title": "After the Pandemic",
       "video": false,
-      "vote_average": 5.66,
-      "vote_count": 25
+      "vote_average": 5.389,
+      "vote_count": 27
     },
     {
-      "id": "1269678",
+      "id": "1271947",
       "adult": false,
       "backdrop_path": null,
       "genre_ids": [
-        99
+        99,
+        14
       ],
-      "original_language": "pt",
-      "original_title": "Gazeta do Posi",
-      "overview": "",
-      "popularity": 0.6,
-      "poster_path": "/FRt2PelZnA1NO15Fj4V4x1EJiK.jpg",
-      "release_date": "",
-      "title": "Gazeta do Posi",
-      "video": false,
-      "vote_average": 10,
-      "vote_count": 1
-    },
-    {
-      "id": "1269822",
-      "adult": false,
-      "backdrop_path": "/f70F2T6SDzKoNmMsqZfudq2gbcQ.jpg",
-      "genre_ids": [
-        18
-      ],
-      "original_language": "es",
-      "original_title": "El Boxeador",
-      "overview": "A boxer confronts his past before an important fight.",
+      "original_language": "en",
+      "original_title": "Saudade: The Lisbon I Never Knew",
+      "overview": "A love letter from an American soul to the city of Lisbon.",
       "popularity": 0,
-      "poster_path": "/6Zgl55JtIgNm2LoMDcD5ggPErRh.jpg",
-      "release_date": "2022-12-12",
-      "title": "The Boxer",
+      "poster_path": "/y1tPlGG0zRAbCYKN6O8fMHFZRxs.jpg",
+      "release_date": "",
+      "title": "Saudade: The Lisbon I Never Knew",
       "video": false,
       "vote_average": 10,
       "vote_count": 1
@@ -94,41 +76,23 @@
       "vote_count": 1
     },
     {
-      "id": 1271912,
+      "id": "1271770",
       "adult": false,
-      "backdrop_path": "/8PVAo9UI4K5Nb4rzQkPiXCsimIa.jpg",
+      "backdrop_path": null,
       "genre_ids": [
-        53
+        18,
+        35
       ],
-      "original_language": "en",
-      "original_title": "The Boxer's Pill",
-      "overview": "A retired boxer meets up with an old friend who offers him an experimental new workout supplement.",
-      "popularity": 0,
-      "poster_path": "/j1aI6KmaA69QqYSRNiYiWo9HKc0.jpg",
+      "original_language": "pt",
+      "original_title": "Atraso",
+      "overview": "",
+      "popularity": 1.4,
+      "poster_path": "/v23qqwqeCYmc8z7hoPGnfshtbN9.jpg",
       "release_date": "2024-04-09",
-      "title": "The Boxer's Pill",
+      "title": "Atraso",
       "video": false,
       "vote_average": 10,
       "vote_count": 1
-    },
-    {
-      "id": 359410,
-      "adult": false,
-      "backdrop_path": "/oe7mWkvYhK4PLRNAVSvonzyUXNy.jpg",
-      "genre_ids": [
-        28,
-        53
-      ],
-      "original_language": "en",
-      "original_title": "Road House",
-      "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
-      "popularity": 1656.695,
-      "poster_path": "/bXi6IQiQDHD00JFio5ZSZOeRSBh.jpg",
-      "release_date": "2024-03-08",
-      "title": "Road House",
-      "video": false,
-      "vote_average": 7.071,
-      "vote_count": 1314
     }
   ]
 }

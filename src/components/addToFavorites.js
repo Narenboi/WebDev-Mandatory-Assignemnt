@@ -1,12 +1,11 @@
-// addToFavorites.js
-import { useAddFavoriteMovieMutation } from '../store/apis/favoritesMoviesApi';
+import { useAddFavoriteMovieMutation, useRemoveFavoriteMovieMutation } from '../store/apis/favoritesMoviesApi';
 import React from 'react';
 
 function useAddToFavorites() {
-  const [addFavoriteMovie, { isLoading }] = useAddFavoriteMovieMutation();
+  const [addFavoriteMovie] = useAddFavoriteMovieMutation();
+  const [removeFavoriteMovie] = useRemoveFavoriteMovieMutation();
   const [error, setError] = React.useState(null);
 
-  
   const addToFavorites = async (movie) => {
     try {
       // Call the mutation to add the movie to favorites
@@ -18,7 +17,17 @@ function useAddToFavorites() {
     }
   };
 
-  return [addToFavorites, { isLoading, error }];
+  const removeFromFavorites = async (movieId) => {
+    try {
+      // Call the mutation to remove the movie from favorites
+      await removeFavoriteMovie(movieId);
+    } catch (error) {
+      console.error('Error removing movie from favorites:', error);
+      setError(error.message || 'An error occurred while removing the movie from favorites.');
+    }
+  };
+
+  return [addToFavorites, removeFromFavorites, { error }];
 }
 
 export default useAddToFavorites;

@@ -26,10 +26,22 @@ const FavoritesMoviesApi = createApi({
                     };
                 },
             }),
+
+            removeFavoriteMovie: builder.mutation({
+                query: (movieId) => {
+                  return {
+                    url: `favorites/${movieId}`, // Assuming the API supports DELETE method to remove a favorite movie
+                    method: 'DELETE',
+                  };
+                },
+              }),
+
+
         };
     },
 });
 
-const { useFetchFavoritesMoviesQuery, useAddFavoriteMovieMutation } = FavoritesMoviesApi;
-export { useFetchFavoritesMoviesQuery, useAddFavoriteMovieMutation };
+
+const { useFetchFavoritesMoviesQuery, useAddFavoriteMovieMutation, useRemoveFavoriteMovieMutation } = FavoritesMoviesApi;
+export { useFetchFavoritesMoviesQuery, useAddFavoriteMovieMutation, useRemoveFavoriteMovieMutation };
 export default FavoritesMoviesApi;

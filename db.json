@@ -1,7 +1,7 @@
 {
   "favorites": [
     {
-      "id": 359410,
+      "id": "359410",
       "adult": false,
       "backdrop_path": "/oe7mWkvYhK4PLRNAVSvonzyUXNy.jpg",
       "genre_ids": [
@@ -20,7 +20,7 @@
       "vote_count": 1187
     },
     {
-      "id": 1181548,
+      "id": "1181548",
       "adult": false,
       "backdrop_path": "/wUp0bUXaveR40ikBhDgWwNTijuD.jpg",
       "genre_ids": [
@@ -40,7 +40,7 @@
       "vote_count": 25
     },
     {
-      "id": 1269678,
+      "id": "1269678",
       "adult": false,
       "backdrop_path": null,
       "genre_ids": [
@@ -58,7 +58,7 @@
       "vote_count": 1
     },
     {
-      "id": 1269822,
+      "id": "1269822",
       "adult": false,
       "backdrop_path": "/f70F2T6SDzKoNmMsqZfudq2gbcQ.jpg",
       "genre_ids": [
@@ -74,6 +74,61 @@
       "video": false,
       "vote_average": 10,
       "vote_count": 1
+    },
+    {
+      "id": "1271948",
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "original_language": "es",
+      "original_title": "Que Pronto Se Hace Tarde",
+      "overview": "",
+      "popularity": 0,
+      "poster_path": "/weaLRZ8B8sa8O0HiFugVytZUhQj.jpg",
+      "release_date": "2024-04-07",
+      "title": "Que Pronto Se Hace Tarde",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "id": 1271912,
+      "adult": false,
+      "backdrop_path": "/8PVAo9UI4K5Nb4rzQkPiXCsimIa.jpg",
+      "genre_ids": [
+        53
+      ],
+      "original_language": "en",
+      "original_title": "The Boxer's Pill",
+      "overview": "A retired boxer meets up with an old friend who offers him an experimental new workout supplement.",
+      "popularity": 0,
+      "poster_path": "/j1aI6KmaA69QqYSRNiYiWo9HKc0.jpg",
+      "release_date": "2024-04-09",
+      "title": "The Boxer's Pill",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "id": 359410,
+      "adult": false,
+      "backdrop_path": "/oe7mWkvYhK4PLRNAVSvonzyUXNy.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "original_language": "en",
+      "original_title": "Road House",
+      "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
+      "popularity": 1656.695,
+      "poster_path": "/bXi6IQiQDHD00JFio5ZSZOeRSBh.jpg",
+      "release_date": "2024-03-08",
+      "title": "Road House",
+      "video": false,
+      "vote_average": 7.071,
+      "vote_count": 1314
     }
   ]
 }

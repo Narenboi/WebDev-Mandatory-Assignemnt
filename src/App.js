@@ -9,6 +9,9 @@ import Home from './components/home';
 import UpcommingMovies from './components/upcommingMovies';
 import FavoriteMovies from './components/favoriteMovies';
 import { useFetchFavoritesMoviesQuery } from './store/apis/favoritesMoviesApi';
+import TvSeries from './components/tvSeries';
+import HighestRatedTvShows from './components/HighestRatedTvShows';
+
 
 /**
  * Renders the main application component.
@@ -35,6 +38,8 @@ function App() {
             <Link to='/highest-rated' className="nav-item nav-link">Highest Rated Movies</Link>
             <Link to='/favorites' /*onClick={useFetchFavoritesMoviesQuery} */ className="nav-item nav-link">My favorite Movies</Link>
             <Link to='/upcomming-Movies' className="nav-item nav-link">Upcomming Movies</Link>
+            <Link to='/TvShows' className="nav-item nav-link">Tv Shows</Link>
+            <Link to='/HighestRatedTvShows' className="nav-item nav-link">Highest rated tv shows </Link>
           </nav>
         </div> 
           <span className='h1'>React MovieLookUP <img className="rounded movie_img m-3" src={MovieImg} alt="Movie" width="75" height="75"/></span>
@@ -47,6 +52,8 @@ function App() {
             <Route path='/searchedMovie' element={<SearchedMovieList/>} /> 
             <Route path='/favorites' element={<FavoriteMovies/>} />
             <Route path='/upcomming-Movies' element={<UpcommingMovies/>} />
+            <Route path='/TvShows' element={<TvSeries/>} />
+            <Route path='/HighestRatedTvShows' element={<HighestRatedTvShows/>} />
         </Routes>
 
     </div>

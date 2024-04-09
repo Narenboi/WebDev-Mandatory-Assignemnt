@@ -7,22 +7,21 @@ import FavoritesMoviesApi from './apis/favoritesMoviesApi';
 
 export const store = configureStore({
   reducer: {
-    [moviesApi.reducerPath]: moviesApi.reducer, //dette er en mere sikker måde, ungår "typo's"
-    [FavoritesMoviesApi.reducerPath]: FavoritesMoviesApi.reducer, //dette er en mere sikker måde, ungår "typo's"
-    searchMovie: searchMovieReducer
+    [moviesApi.reducerPath]: moviesApi.reducer,
+    [FavoritesMoviesApi.reducerPath]: FavoritesMoviesApi.reducer,
+    searchMovie: searchMovieReducer,
   },
-  middleware: (getDefaultMiddleware) => {  //Thunk middelware er default når der benyttes Redux Toolkit configureStore.
-
+  middleware: (getDefaultMiddleware) => {
     return getDefaultMiddleware()
-    .concat(moviesApi.middleware)
-    .concat(FavoritesMoviesApi.middleware);
+      .concat(moviesApi.middleware)
+      .concat(FavoritesMoviesApi.middleware);
   }
 });
 
 setupListeners(store.dispatch);
 
 
-export { useFetchPopularMoviesQuery, useFetchHighestRatedMoviesQuery, useFetchSearchMovieQuery, useFetchUpcomingMoviesQuery } from './apis/moviesApi';
+export { useFetchPopularMoviesQuery, useFetchHighestRatedMoviesQuery, useFetchSearchMovieQuery, useFetchUpcomingMoviesQuery, useFetchPopularTVShowsQuery, useFetchTopRatedTVShowsQuery} from './apis/moviesApi';
 //export { useFetchFavoritesMoviesQuery, useAddFavoriteMovieMutation } from './apis/favoritesMoviesApi';
 export {changeSearchTerm};
 
